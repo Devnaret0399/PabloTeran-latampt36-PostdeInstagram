@@ -1,0 +1,65 @@
+body {
+    background: black;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+header h1{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.post {
+    background: white;
+    margin-top: 30px;
+}
+.post img {
+    width: 100%;
+}
+.container {
+    width: 500px;
+    margin: auto;
+}
+.post h2 {
+    padding: 0px;
+    margin: 0;
+    margin-top: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+}
+.post h3 {
+    padding: 0px;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-small;
+    font-style: unset;
+    font-weight: 100;
+}
+.post p {
+    padding: 10px;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+} 
+.post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+}
+.gray-text {
+    color: gray;
+}
+.post post-icon {
+display: flex;
+}
